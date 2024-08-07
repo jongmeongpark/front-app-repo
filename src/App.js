@@ -35,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function App(props) {
+  console.log('11111 app start');
   const classes = useStyles();
   // const { sections } = props;
   const [ data, setState ] = useState({outcome: []});
